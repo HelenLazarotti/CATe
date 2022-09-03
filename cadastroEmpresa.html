@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre a Empresa</title>
+    <link rel="stylesheet" href="css/cadastros.css">
+</head>
+<body>
+    <main>
+        <h1>Cadastre sua Empresa</h1>
+        <img src="icon/construcao.png" alt="empresas" width="200px"><br>
+
+        <label for="nome">Nome Empresa: </label>
+                <input type="text"><br>
+
+                <label for="cnpj">CNPJ: </label>
+                <input type="number" placeholder="XX.XXX.XXX/0001-XX"><br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" placeholder="seu@email.com.br"><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel"><br>
+
+            
+                <label for="linkedin">Perfil Linkedin: </label>
+                <input type="url"><br>
+
+                <label for="ramoEmpresa">CEP: </label>
+                <input type="text" name="cidade" id="cidade" placeholder="ex: Torres - RS"><br>
+
+                <div class="dadosAcademicos">
+                    <h2>Dados sobre a vaga</h2>
+                    
+ 
+                    <label for="salario">Nome da vaga: </label>
+                    <input type="text"><br>
+    
+    
+                    <label for="salario">Salário: </label>
+                    <input type="number" placeholder="ex: R$2.000,00"><br>
+
+                    <label for="nomevaga">Modalidade: 
+                        <select name="" id="">
+                            <option value="presencial">Presencial</option>
+                            <option value="hibrido">Híbrido</option>
+                            <option value="remoto">Remoto</option>
+                        </select><br>
+                    </label><br>
+    
+                    <label for="habilidades" id="habilidades">Requisitos: 
+                        <select>
+                            <option value="">HTML&CSS</option>
+                            <option value="">JavaScript</option>
+                            <option value="">Java</option>
+                            <option value="">C++</option>
+                            <option value="">Python</option><option value="">PostgreSQL</option><option value="">MySQL</option><option value="">React</option><option value="">Django</option>
+                        </select>
+                    </label><br><br>
+
+                    <div id="spaceHabilidades"></div>
+                </div>
+
+                <button class="btn"><a href="login.html">Cadastrar</a> </button>
+    </main>
+    
+</body>
+</html>
