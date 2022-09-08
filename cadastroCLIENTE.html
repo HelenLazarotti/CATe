@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
     <link rel="stylesheet" href="css/cadastros.css">
-    
+
 </head>
 <body>
     <main>
         <h1>Cadastre-se</h1>
         <img src="icon/perfil.png" alt="perfil" width="200px"><br>
-
+        
         <label for="nome">Nome Completo: </label>
-                <input type="text"><br>
+                <input type="text" id="nome"><br>
 
                 <label for="email">E-mail: </label>
-                <input type="email" placeholder="seu@email.com.br"><br>
+                <input type="email" placeholder="seu@email.com.br" id="email"><br>
 
                 <label for="telefone">Telefone: </label>
-                <input type="tel"><br>
+                <input type="tel" id="tele"><br>
 
             
-                <label for="linkedin">Perfil Linkedin: </label>
-                <input type="url"><br>
+                <label for="linkedin">Perfil LinkedIn: </label>
+                <input type="url" id="linkedin"><br>
 
                 <label for="ramoEmpresa">CEP: </label>
                 <input type="text" name="cidade" id="cidade" placeholder="ex: Caxias do Sul - RS"><br>
@@ -38,28 +38,30 @@
                     </select><br>
                 </label><br>
  
-                    <label for="salario">Instituição: </label>
-                    <input type="text"><br>
+                    <label for="instituicao">Instituição: </label>
+                    <input type="text" id="escola"><br>
     
     
                     <label for="modalidade">Curso: </label>
-                    <input type="text"><br>
-    
-                    <label for="habilidades" id="habilidades">Habilidades: 
-                        <select>
-                            <option value="">HTML&CSS</option>
-                            <option value="">JavaScript</option>
-                            <option value="">Java</option>
-                            <option value="">C++</option>
-                            <option value="">Python</option><option value="">PostgreSQL</option><option value="">MySQL</option><option value="">React</option><option value="">Django</option>
+                    <input type="text" id="curso"><br>
+                    <label for="habilidades" id="habilidades">Requisitos: 
+                        <select id="habilidades">
+                            <option value="" class="option">HTML&CSS</option>
+                            <option value="" class="option">JavaScript</option>
+                            <option value="" class="option">Java</option>
+                            <option value="" class="option">C++</option>
+                            <option value="" class="option">Python</option><option value="" class="option">PostgreSQL</option><option value="" class="option">MySQL</option><option value="" class="option">React</option><option value="" class="option">Django</option>
                         </select>
                     </label><br><br>
 
-                    <div id="spaceHabilidades"></div>
-                </div>
-
-                <button class="btn"><a href="login.html">Cadastrar-me</a></button>
-    </main>
+                    <div id="spaceHabilidades">
+                        <div class="skills"></div>
+                    </div>
     
+                </div>
+                <button class="btn"><a href="">Testes</a></button>
+                <button class="btn" onclick="cadastrar()"><a href="login.html">Cadastrar-me</a></button>
+                <button class="btn"><a href="meuPerfil.html">Editar</a></button>
+    </main>
 </body>
 </html>
