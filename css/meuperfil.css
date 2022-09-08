@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(to right, #38499E, #CB6CE6, #38B6FF);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ h1{
+    color: #ffffff;
+ }
+ h2{
+    text-align: center;
+ }
+ button{
+    background-color: #FEB102;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    margin-top: 30px;
+}
+button > a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    text-align: center;
+    width: 900px;
+    margin: auto auto;
+}
+.infos{
+    width: 300px;
+    display: inline-block;
+    margin: 50px;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+.habilidades{
+    width: 300px;
+    height: 150px;
+    margin: auto auto;
+    border: 3px solid #FEB102;
+    background-color: #f0d28c;
+}
+p{
+    font-size: 18px;
+}
+.skill{
+    width: auto;
+    padding: 10px;
+    display: inline-block;
+    background-color: #ffffff;
+    margin: 10px;
+}
